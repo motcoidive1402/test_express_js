@@ -7,7 +7,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/about', (req, res) => {
-  res.send('Đây là trang giới thiệu.');
+  res.send('Đây là trang giới thiệu. 123');
 });
 
 app.listen(port, () => {
